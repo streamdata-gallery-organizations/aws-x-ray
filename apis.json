@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS X-Ray",
+	"description": "This is a repository of aws x-ray APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-x-ray.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-x-ray.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS X-Ray",
+			"x-api-slug": "aws-xray",
+			"description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your applications underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png",
+			"humanURL": "https://aws.amazon.com/xray/",
+			"baseURL": ":///",
+			"tags": "AWS X-Ray",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-x-ray/master/_listings/aws-xray/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS X-Ray",
+	"include": [
+		{
+			"name": "AWS X-Ray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-x-ray/master/_listings/aws-xray/apis.yaml"
+		}
+	]
+}
